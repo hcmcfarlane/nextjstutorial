@@ -2,7 +2,7 @@
 
 Starting to learn NextJs by following the tutorial from the [Next.JS docs](httpsnextjs.orglearnbasicscreate-nextjs-app).
 
-Deployed to Vercel at [https://nextjstutorial-gglgla5l9-hcmcfarlane.vercel.app/](https://nextjstutorial-gglgla5l9-hcmcfarlane.vercel.app/)
+Deployed to Vercel at [https://nextjstutorial-three.vercel.app/](https://nextjstutorial-three.vercel.app/)
 
 In this tutorial I learned how to
 
