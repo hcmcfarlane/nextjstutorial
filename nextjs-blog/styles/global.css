@@ -2,11 +2,10 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, Fira Code, Fira Sans,
-		Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue,
-		sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, Fira Sans, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue, sans-serif;
 	line-height: 1.6;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 * {
@@ -25,4 +24,15 @@ a:hover {
 img {
 	max-width: 100%;
 	display: block;
+}
+
+h1,
+h2,
+code {
+	font-family: -apple-system, BlinkMacSystemFont, Fira Code, Fira Sans,
+		Consolas, Segoe UI, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h2 {
+	font-size: 1em;
 }

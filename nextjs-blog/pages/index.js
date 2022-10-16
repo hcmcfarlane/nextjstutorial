@@ -23,12 +23,43 @@ export default function Home({ allPostsData }) {
 					Hi, I'm Hannah and this is my first experience building a
 					Next.js app.
 				</p>
-				<p>
-					(This is a sample website - you’ll be building a site like
-					this on{" "}
-					<a href="https://nextjs.org/learn">our Next.js tutorial</a>
-					.)
+				<p style={{ fontSize: "0.85em" }}>
+					<em>
+						(This is a sample website - based on{" "}
+						<a href="https://nextjs.org/learn">
+							the Next.js tutorial
+						</a>
+						.)
+					</em>
 				</p>
+			</section>
+			<section>
+				<h2>In this tutorial I learned how to</h2>
+				<ul>
+					<li>Add pages to a Next.js app</li>
+					<li>Use the Link component for client-side navigation</li>
+					<li>Include static assets in a project</li>
+					<li>Use CSS modules for unique class names</li>
+					<li>
+						Add a global CSS file to <code>_app.js</code>
+					</li>
+					<li>Utilise pre-rendering for faster performance</li>
+					<li>
+						Use server-side <code>getStaticProps</code> for
+						statically generated pages + external data fetching
+					</li>
+					<li>
+						When to use server-side rendering to fetch data at
+						request time
+					</li>
+					<li>
+						Implement dynamic routing (for blog posts, in this
+						example) using <code>getStaticPaths</code>
+					</li>
+					<li>
+						Initialise a serverless API endpoint from a Next.js app
+					</li>
+				</ul>
 			</section>
 			<section
 				className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
